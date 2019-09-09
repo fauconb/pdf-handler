@@ -1,2 +1,2 @@
 # pdf-handler
-Projet de groupe avec Cyril, Ségolène, Camille et Lucas
+Projet de groupe avec Cyrille, Ségolène, Camille et Lucas
