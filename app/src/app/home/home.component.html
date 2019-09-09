@@ -1,1 +1,8 @@
-<p>home works!</p>
+<div class="container">
+  <input type="file" name="photo" ng2FileSelect [uploader]="uploader" />
+  <button type="button" class="btn btn-success btn-s"
+          (click)="uploader.uploadAll()"
+          [disabled]="!uploader.getNotUploadedItems().length" >
+    Upload your PDF
+  </button>
+</div>
