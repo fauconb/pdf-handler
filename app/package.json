@@ -19,7 +19,10 @@
     "@angular/platform-browser": "~8.2.0",
     "@angular/platform-browser-dynamic": "~8.2.0",
     "@angular/router": "~8.2.0",
+    "bootstrap": "^4.3.1",
+    "ngx-extended-pdf-viewer": "^1.5.0",
     "rxjs": "~6.4.0",
+    "simple-pdf-viewer": "^2.0.3",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
   },
