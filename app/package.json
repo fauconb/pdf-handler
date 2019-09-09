@@ -20,8 +20,10 @@
     "@angular/platform-browser-dynamic": "~8.2.0",
     "@angular/router": "~8.2.0",
     "bootstrap": "^4.3.1",
+    "ng2-file-upload": "^1.3.0",
     "ngx-extended-pdf-viewer": "^1.5.0",
     "rxjs": "~6.4.0",
+    "rxjs-compat": "^6.5.3",
     "simple-pdf-viewer": "^2.0.3",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"

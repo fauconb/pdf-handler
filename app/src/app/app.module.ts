@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ViewerComponent } from './viewer/viewer.component';
+import { FileSelectDirective } from 'ng2-file-upload';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ViewerComponent } from './viewer/viewer.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    ViewerComponent
+    ViewerComponent,
+    FileSelectDirective,
   ],
   imports: [
     BrowserModule,
