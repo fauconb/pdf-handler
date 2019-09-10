@@ -1,0 +1,19 @@
+<ul>
+  <li *ngFor="let File of files">
+    -- name: {{File.name}}
+    -- path: {{File.path}}
+    -- size: {{File.size}}
+  </li>
+</ul>
+<div class="row">
+  <div class="col-md-3" *ngFor="let File of files">
+    <div class="card" >
+      <div class="card-body">
+        <h5 class="card-title">{{File.name}}</h5>
+        <p class="card-text">{{File.path}}</p>
+        <p class="card-text">{{File.size}}</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+</div>

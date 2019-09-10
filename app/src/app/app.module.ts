@@ -10,6 +10,8 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ViewerComponent } from './viewer/viewer.component';
 import { FileSelectDirective } from 'ng2-file-upload';
+import { FilesCardsComponent } from './files-cards/files-cards.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -19,12 +21,15 @@ import { FileSelectDirective } from 'ng2-file-upload';
     HomeComponent,
     ViewerComponent,
     FileSelectDirective,
+    FilesCardsComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     NgxExtendedPdfViewerModule,
+    HttpClientModule,
 
   ],
   providers: [],
