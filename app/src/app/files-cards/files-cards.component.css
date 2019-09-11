@@ -1,8 +1,18 @@
 .col-md-3{
   text-align: center;
 }
+.card {
+  margin-bottom: 3px;
+  margin-top: 3px;
+  height: 280px;
 
+}
+.row{
+  margin-right: 2px ;
+  margin-left: 2px ;
+}
 .btn {
-  margin-right: 5px;
-  margin-left: 5px;
+  margin-right: 3px;
+  margin-left: 3px;
+  background-color: lightcoral;
 }

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {  FileUploader, FileSelectDirective } from 'ng2-file-upload/ng2-file-upload';
 
-const URL = 'assets/pdf/';
+const URL = 'http://localhost:8080/api-pdf-handler/resources/upload/';
 
 @Component({
   selector: 'app-home',
@@ -13,7 +13,7 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
     this.uploader.onAfterAddingFile = (file) => { file.withCredentials = false; };
     this.uploader.onCompleteItem = (item: any, response: any, status: any, headers: any) => {
-      console.log('ImageUpload:uploaded:', item, status, response);
+      console.log('pdfUpload:uploaded:', item, status, response);
       alert('File uploaded successfully');
     };
   }
