@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-let url = "http://localhost:8080/api-pdf-handler/resources/pdf/view?name=pdf-sample.pdf"
+const PATHURL = "http://localhost:8080/api-pdf-handler/resources/pdf/view?name=pdf-sample.pdf"
 
 @Component({
   selector: 'app-viewer',
